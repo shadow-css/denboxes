@@ -5,7 +5,7 @@ font-family: Verdana, sans-serif !important;
 box-sizing: border-box !important;
 }
 .bigBox {
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/walkbeach.png') border-box !important;
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/zimbabwe-acaciaforest.png') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 width: 100% !important;
@@ -36,7 +36,7 @@ padding: 0 !important;
 box-shadow: none !important;
 }
 .smallBox {
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/walkbeach.png') border-box !important;
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/zimbabwe-acaciaforest.png') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 width: 48% !important;
