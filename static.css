@@ -11,17 +11,13 @@ background-position: center !important;
 width: 100% !important;
 height: 240px !important;
 border: 15px solid transparent !important;
-outline: 2px solid #334b72 !important;
+outline: 3px solid !important;
 outline-offset: -15px !important;
 border-radius: 10px !important;
 padding: 15px !important;
 margin-bottom: 20px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
-color: #ffffff !important;
-font-size: 12px !important;
-line-height: 1.6 !important;
-text-align: center !important;
 display: block !important;
 transition: box-shadow 0.3s ease-in-out !important;
 box-shadow: 0 0 0 rgba(255, 255, 255, 0) !important;
@@ -42,27 +38,19 @@ background-position: center !important;
 width: 48% !important;
 height: 170px !important;
 border: 15px solid transparent !important;
-outline: 2px solid #334b72 !important;
+outline: 3px solid !important;
 outline-offset: -15px !important;
 border-radius: 10px !important;
 padding: 15px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
-color: #ffffff !important;
-font-size: 12px !important;
-line-height: 1.6 !important;
-text-align: center !important;
 display: block !important;
+transition: box-shadow 0.3s ease-in-out !important;
+box-shadow: 0 0 0 rgba(255, 255, 255, 0) !important;
 }
 .bigBox::after, .smallBox::after {
 content: none !important;
 }
 .bigBox:hover, .smallBox:hover {
-box-shadow: 0 0 15px rgba(84, 171, 158, 0.75) !important;
-}
-@media only screen and (max-width: 768px) {
-.bigBox, .smallBox {
-font-size: 10px !important;
-padding: 8px !important;
-}
+box-shadow: 0 0 15px var(--hover-glow, rgba(84, 171, 158, 0.75)) !important;
 }
