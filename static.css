@@ -1,25 +1,22 @@
 .denWrapper {
 max-width: 780px !important;
 margin: 20px auto !important;
-font-family: Verdana, sans-serif !important;
 box-sizing: border-box !important;
 }
 .bigBox {
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/zimbabwe-acaciaforest.png') border-box !important;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/7thlionlands_Night.png') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 width: 100% !important;
 height: 240px !important;
-border: 15px solid transparent !important;
-outline: 3px solid #334b72 !important;
-outline-offset: -15px !important;
+border: 20px solid transparent !important;
+outline: 3px solid #0b1018 !important;
+outline-offset: -20px !important;
 border-radius: 10px !important;
-padding: 15px !important;
+padding: 20px !important;
 margin-bottom: 20px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
-color: #ffffff !important;
-font-size: 12px !important;
 line-height: 1.6 !important;
 text-align: center !important;
 display: block !important;
@@ -36,27 +33,50 @@ padding: 0 !important;
 box-shadow: none !important;
 }
 .smallBox {
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/zimbabwe-acaciaforest.png') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 width: 48% !important;
 height: 170px !important;
-border: 15px solid transparent !important;
-outline: 3px solid #334b72 !important;
-outline-offset: -15px !important;
+border: 20px solid transparent !important;
+outline: 3px solid #0b1018 !important;
+outline-offset: -20px !important;
 border-radius: 10px !important;
-padding: 15px !important;
+padding: 20px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
-color: #ffffff !important;
-font-size: 12px !important;
 line-height: 1.6 !important;
 text-align: center !important;
 display: block !important;
 }
+
+/* Left Image */
+.columnSplit .smallBox:first-of-type {
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/burningblightBG.png') border-box !important;
+background-size: cover !important;
+background-position: center !important;
+}
+
+/* Right Image */
+.columnSplit .smallBox:last-of-type {
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/burningblightBG.png') border-box !important;
+background-size: cover !important;
+background-position: center !important;
+}
+
+/* Hovers */
+
 .bigBox::after, .smallBox::after {
 content: none !important;
 }
 .bigBox:hover, .smallBox:hover {
 box-shadow: 0 0 15px rgba(20, 0, 130, 0.8) !important;
+}
+
+@media only screen and (max-width: 768px) {
+.bigBox, .smallBox {
+font-size: 10px !important;
+padding: 12px !important;
+word-wrap: break-word !important;
+white-space: normal !important;
+}
 }
