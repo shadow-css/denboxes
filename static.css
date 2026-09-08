@@ -36,8 +36,6 @@ background-color: transparent;
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.lioden.com/images/dynamic/backgrounds/zimbabwe-acaciaforest.png');
 background-size: cover !important;
 background-position: center !important;
-background-clip: padding-box, border-box !important;
-background-origin: padding-box, border-box !important;
 width: 48% !important;
 height: 170px !important;
 border: 15px solid transparent;
@@ -56,11 +54,14 @@ content: none !important;
 box-shadow: 0 0 15px rgba(20, 0, 130, 0.8) !important;
 }
 @media only screen and (max-width: 768px) {
-.columnSplit {
-display: block !important;
+.bigBox {
+height: 180px !important;
+border-width: 8px !important;
+padding: 8px !important;
 }
 .smallBox {
-width: 100% !important;
-margin-bottom: 20px !important;
+height: 140px !important;
+border-width: 8px !important;
+padding: 8px !important;
 }
 }
