@@ -1,5 +1,5 @@
 .denWrapper {
-max-width: 700px !important;
+max-width: 780px !important;
 margin: 20px auto !important;
 box-sizing: border-box !important;
 }
@@ -35,7 +35,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box,
 background-size: cover !important;
 background-position: center !important;
 width: 48% !important;
-height: 240px !important;
+height: 170px !important;
 border: 15px solid transparent;
 outline: 2px solid rgba(255, 255, 255, 0.15) !important;
 outline-offset: -15px !important;
