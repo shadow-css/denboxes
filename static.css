@@ -11,13 +11,16 @@ background-position: center !important;
 width: 100% !important;
 height: 240px !important;
 border: 15px solid transparent !important;
-outline: 3px solid !important;
+outline: 3px solid #334b72 !important;
 outline-offset: -15px !important;
 border-radius: 10px !important;
 padding: 15px !important;
 margin-bottom: 20px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
+color: #ffffff !important;
+font-size: 12px !important;
+line-height: 1.6 !important;
 text-align: center !important;
 display: block !important;
 transition: box-shadow 0.3s ease-in-out !important;
@@ -39,12 +42,15 @@ background-position: center !important;
 width: 48% !important;
 height: 170px !important;
 border: 15px solid transparent !important;
-outline: 3px solid !important;
+outline: 3px solid #334b72 !important;
 outline-offset: -15px !important;
 border-radius: 10px !important;
 padding: 15px !important;
 box-sizing: border-box !important;
 overflow-y: auto !important;
+color: #ffffff !important;
+font-size: 12px !important;
+line-height: 1.6 !important;
 text-align: center !important;
 display: block !important;
 }
@@ -52,5 +58,5 @@ display: block !important;
 content: none !important;
 }
 .bigBox:hover, .smallBox:hover {
-box-shadow: 0 0 15px #334b72 !important;
+box-shadow: 0 0 15px rgba(20, 0, 130, 0.8) !important;
 }
