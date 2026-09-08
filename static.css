@@ -51,14 +51,14 @@ display: block !important;
 
 /* Left Image */
 .columnSplit .smallBox:first-of-type {
-background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/burningblightBG.png') border-box !important;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/wolf-chromebook-wallpaper.jpg') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 }
 
 /* Right Image */
 .columnSplit .smallBox:last-of-type {
-background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/burningblightBG.png') border-box !important;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)) padding-box, url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png') border-box !important;
 background-size: cover !important;
 background-position: center !important;
 }
